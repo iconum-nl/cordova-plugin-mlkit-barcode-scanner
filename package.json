@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-mlkit-barcode-scanner",
-  "version": "3.0.4",
+  "version": "2.1.2",
   "description": "Google MLKit Vision Barcode Scanner Plugin",
   "cordova": {
     "id": "cordova-plugin-mlkit-barcode-scanner",
@@ -16,19 +16,15 @@
   ],
   "author": "Florian Biebel",
   "license": "MIT",
-  "main": "www/BarcodeScanner.contract.js",
-  "engines": {
-    "node": ">=10.0.0"
+  "main": "www/main.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "tslint --project tsconfig.json"
   },
-  "scripts": {},
-  "files": [
-    "/src/",
-    "/www/**/*.{js,js.map,d.ts}",
-    "/plugin.xml"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/iconum-nl/cordova-plugin-mlkit-barcode-scanner.git"
+    "url": "https://github.com/MobisysGmbH/cordova-plugin-mlkit-barcode-scanner.git"
   },
-  "homepage": "https://github.com/iconum-nl/cordova-plugin-mlkit-barcode-scanner#readme"
+  "homepage": "https://github.com/MobisysGmbH/cordova-plugin-mlkit-barcode-scanner#readme",
+  "devDependencies": {}
 }

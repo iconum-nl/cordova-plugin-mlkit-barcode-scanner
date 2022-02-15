@@ -1,9 +1,0 @@
-{
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "dotjoshjohnson.xml",
-    "esbenp.prettier-vscode",
-    "wayou.vscode-todo-highlight"
-  ],
-  "unwantedRecommendations": []
-}

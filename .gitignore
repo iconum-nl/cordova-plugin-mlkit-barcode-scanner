@@ -13,6 +13,3 @@ gradle/
 # Android files
 local.properties
 gradlew*
-
-# Other files
-.eslintcache
