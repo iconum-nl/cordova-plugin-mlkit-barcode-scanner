@@ -1,4 +1,8 @@
-#import <AVFoundation/AVFoundation.h>
+//
+//  CDViOSScanner.h
+//  Dealr, Inc.
+//
+
 #import <Foundation/Foundation.h>
 #import <Cordova/CDV.h>
 #import <UIKit/UIKit.h>
@@ -9,9 +13,6 @@
 @interface CDViOSScanner : CDVPlugin {
     NSString *_callback;
     Boolean _scannerOpen;
-    AVAudioPlayer* _player;
-    Boolean _beepOnSuccess;
-    Boolean _vibrateOnSuccess;
 }
 
 @property (nonatomic, retain) CameraViewController* cameraViewController;
